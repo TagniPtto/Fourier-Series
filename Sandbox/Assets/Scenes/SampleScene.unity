@@ -1,0 +1,2622 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 705507994}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 1733618134}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &705507993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 705507995}
+  - component: {fileID: 705507994}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &705507994
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &705507995
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_LocalRotation: {x: 0.5763525, y: 0.54543316, z: 0.18497686, w: 0.5797448}
+  m_LocalPosition: {x: 5.087, y: 3, z: 11.84}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 27.807, y: 107.051, z: 72.417}
+--- !u!1 &963194225
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 963194228}
+  - component: {fileID: 963194227}
+  - component: {fileID: 963194226}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &963194226
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+--- !u!20 &963194227
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &963194228
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -37.52}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1616612528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1616612530}
+  - component: {fileID: 1616612529}
+  - component: {fileID: 1616612531}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1616612529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616612528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7691e4a10c7a0a42947a092b5b82277, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CircleCount: 100
+  coefficients:
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  - im: 0
+    re: 0
+  OrderCircles:
+  - Freq: 0
+    Magn: 0
+    StartAngle: 0
+    angle: 0
+    Top: {x: 0, y: 0}
+    Center: {x: 0, y: 0}
+  - Freq: -1
+    Magn: 22.49986
+    StartAngle: 0.0000060260454
+    angle: 0
+    Top: {x: 22.49986, y: 0.00013558519}
+    Center: {x: 0, y: 0}
+  - Freq: 1
+    Magn: 79.76146
+    StartAngle: 0
+    angle: 0
+    Top: {x: 79.76146, y: 0}
+    Center: {x: 0, y: 0}
+  - Freq: -2
+    Magn: 0.0075128796
+    StartAngle: 0.006414304
+    angle: 0
+    Top: {x: 0.007512725, y: 0.000048189566}
+    Center: {x: 0, y: 0}
+  - Freq: 2
+    Magn: 0.035485588
+    StartAngle: 0.004548177
+    angle: 0
+    Top: {x: 0.03548522, y: 0.00016139417}
+    Center: {x: 0, y: 0}
+  - Freq: -3
+    Magn: 1.1313645
+    StartAngle: 0.00010541291
+    angle: 0
+    Top: {x: 1.1313645, y: 0.00011926042}
+    Center: {x: 0, y: 0}
+  - Freq: 3
+    Magn: 7.5032396
+    StartAngle: 0.000015943418
+    angle: 0
+    Top: {x: 7.5032396, y: 0.000119627286}
+    Center: {x: 0, y: 0}
+  - Freq: -4
+    Magn: 0.0036988554
+    StartAngle: 0.041894514
+    angle: 0
+    Top: {x: 0.00369561, y: 0.00015491643}
+    Center: {x: 0, y: 0}
+  - Freq: 4
+    Magn: 0.0044249175
+    StartAngle: 0.039386414
+    angle: 0
+    Top: {x: 0.004421486, y: 0.00017423659}
+    Center: {x: 0, y: 0}
+  - Freq: -5
+    Magn: 4.503022
+    StartAngle: 0.054831136
+    angle: 0
+    Top: {x: 4.496255, y: 0.24678212}
+    Center: {x: 0, y: 0}
+  - Freq: 5
+    Magn: 6.7929296
+    StartAngle: 0.054814093
+    angle: 0
+    Top: {x: 6.7827272, y: 0.37216184}
+    Center: {x: 0, y: 0}
+  - Freq: -6
+    Magn: 0.007449644
+    StartAngle: 0.049730018
+    angle: 0
+    Top: {x: 0.0074404343, y: 0.00037031824}
+    Center: {x: 0, y: 0}
+  - Freq: 6
+    Magn: 0.005596802
+    StartAngle: 0.048976697
+    angle: 0
+    Top: {x: 0.005590091, y: 0.0002740033}
+    Center: {x: 0, y: 0}
+  - Freq: -7
+    Magn: 2.0427468
+    StartAngle: 0.054822616
+    angle: 0
+    Top: {x: 2.0396779, y: 0.11193263}
+    Center: {x: 0, y: 0}
+  - Freq: 7
+    Magn: 3.216192
+    StartAngle: 0.054822616
+    angle: 0
+    Top: {x: 3.21136, y: 0.17623174}
+    Center: {x: 0, y: 0}
+  - Freq: -8
+    Magn: 0.0027198864
+    StartAngle: 0.006897212
+    angle: 0
+    Top: {x: 0.0027198216, y: 0.000018759485}
+    Center: {x: 0, y: 0}
+  - Freq: 8
+    Magn: 0.004018757
+    StartAngle: 0.046062198
+    angle: 0
+    Top: {x: 0.0040144944, y: 0.00018504732}
+    Center: {x: 0, y: 0}
+  - Freq: -9
+    Magn: 2.5011806
+    StartAngle: 0.000008522115
+    angle: 0
+    Top: {x: 2.5011806, y: 0.00002131535}
+    Center: {x: 0, y: 0}
+  - Freq: 9
+    Magn: 3.2083743
+    StartAngle: 0
+    angle: 0
+    Top: {x: 3.2083743, y: 0}
+    Center: {x: 0, y: 0}
+  - Freq: -10
+    Magn: 0.0023530251
+    StartAngle: 0.013040233
+    angle: 0
+    Top: {x: 0.0023528251, y: 0.000030683128}
+    Center: {x: 0, y: 0}
+  - Freq: 10
+    Magn: 0.0049841036
+    StartAngle: 0.0026049083
+    angle: 0
+    Top: {x: 0.004984087, y: 0.000012983118}
+    Center: {x: 0, y: 0}
+  - Freq: -11
+    Magn: 1.5689012
+    StartAngle: 0.000028264662
+    angle: 0
+    Top: {x: 1.5689012, y: 0.000044344462}
+    Center: {x: 0, y: 0}
+  - Freq: 11
+    Magn: 2.0456529
+    StartAngle: 0.000012052091
+    angle: 0
+    Top: {x: 2.0456529, y: 0.000024654395}
+    Center: {x: 0, y: 0}
+  - Freq: -12
+    Magn: 0.0006608084
+    StartAngle: 0.037835117
+    angle: 0
+    Top: {x: 0.00066033547, y: 0.0000249958}
+    Center: {x: 0, y: 0}
+  - Freq: 12
+    Magn: 0.0014990809
+    StartAngle: 0.033012647
+    angle: 0
+    Top: {x: 0.0014982641, y: 0.000049479637}
+    Center: {x: 0, y: 0}
+  - Freq: -13
+    Magn: 1.7321143
+    StartAngle: 0.05482511
+    angle: 0
+    Top: {x: 1.7295117, y: 0.094915785}
+    Center: {x: 0, y: 0}
+  - Freq: 13
+    Magn: 2.0718277
+    StartAngle: 0.054812077
+    angle: 0
+    Top: {x: 2.0687163, y: 0.11350433}
+    Center: {x: 0, y: 0}
+  - Freq: -14
+    Magn: 0.0032385066
+    StartAngle: 0.047357604
+    angle: 0
+    Top: {x: 0.0032348756, y: 0.0001533106}
+    Center: {x: 0, y: 0}
+  - Freq: 14
+    Magn: 0.0020664418
+    StartAngle: 0.05184315
+    angle: 0
+    Top: {x: 0.0020636655, y: 0.00010708287}
+    Center: {x: 0, y: 0}
+  - Freq: -15
+    Magn: 1.2424828
+    StartAngle: 0.054822616
+    angle: 0
+    Top: {x: 1.2406161, y: 0.06808204}
+    Center: {x: 0, y: 0}
+  - Freq: 15
+    Magn: 1.5002178
+    StartAngle: 0.054820698
+    angle: 0
+    Top: {x: 1.497964, y: 0.082201794}
+    Center: {x: 0, y: 0}
+  - Freq: -16
+    Magn: 0.0017133761
+    StartAngle: 0.003147225
+    angle: 0
+    Top: {x: 0.0017133676, y: 0.0000053923713}
+    Center: {x: 0, y: 0}
+  - Freq: 16
+    Magn: 0.00179509
+    StartAngle: 0.042262726
+    angle: 0
+    Top: {x: 0.0017934871, y: 0.000075842814}
+    Center: {x: 0, y: 0}
+  - Freq: -17
+    Magn: 1.3248969
+    StartAngle: 0.000010437418
+    angle: 0
+    Top: {x: 1.3248969, y: 0.000013828502}
+    Center: {x: 0, y: 0}
+  - Freq: 17
+    Magn: 1.524
+    StartAngle: 0
+    angle: 0
+    Top: {x: 1.524, y: 0}
+    Center: {x: 0, y: 0}
+  - Freq: -18
+    Magn: 0.001791239
+    StartAngle: 0.0125752175
+    angle: 0
+    Top: {x: 0.0017910973, y: 0.000022524626}
+    Center: {x: 0, y: 0}
+  - Freq: 18
+    Magn: 0.003146736
+    StartAngle: 0.0008344855
+    angle: 0
+    Top: {x: 0.0031467348, y: 0.0000026259052}
+    Center: {x: 0, y: 0}
+  - Freq: -19
+    Magn: 1.023041
+    StartAngle: 0.000026949298
+    angle: 0
+    Top: {x: 1.023041, y: 0.000027570237}
+    Center: {x: 0, y: 0}
+  - Freq: 19
+    Magn: 1.1845161
+    StartAngle: 0.000010437418
+    angle: 0
+    Top: {x: 1.1845161, y: 0.000012363289}
+    Center: {x: 0, y: 0}
+  - Freq: -20
+    Magn: 0.00023970655
+    StartAngle: 0.012073143
+    angle: 0
+    Top: {x: 0.00023968908, y: 0.0000028939412}
+    Center: {x: 0, y: 0}
+  - Freq: 20
+    Magn: 0.0010446535
+    StartAngle: 0.024673307
+    angle: 0
+    Top: {x: 0.0010443355, y: 0.00002577244}
+    Center: {x: 0, y: 0}
+  - Freq: -21
+    Magn: 1.0721542
+    StartAngle: 0.054822616
+    angle: 0
+    Top: {x: 1.0705434, y: 0.058748856}
+    Center: {x: 0, y: 0}
+  - Freq: 21
+    Magn: 1.2032104
+    StartAngle: 0.054814093
+    angle: 0
+    Top: {x: 1.2014033, y: 0.06591986}
+    Center: {x: 0, y: 0}
+  - Freq: -22
+    Magn: 0.001912908
+    StartAngle: 0.044398937
+    angle: 0
+    Top: {x: 0.0019110229, y: 0.000084903186}
+    Center: {x: 0, y: 0}
+  - Freq: 22
+    Magn: 0.0009781823
+    StartAngle: 0.05480287
+    angle: 0
+    Top: {x: 0.0009767137, y: 0.000053580367}
+    Center: {x: 0, y: 0}
+  - Freq: -23
+    Magn: 0.86696225
+    StartAngle: 0.054822616
+    angle: 0
+    Top: {x: 0.8656597, y: 0.047505334}
+    Center: {x: 0, y: 0}
+  - Freq: 23
+    Magn: 0.9779032
+    StartAngle: 0.054822616
+    angle: 0
+    Top: {x: 0.976434, y: 0.05358436}
+    Center: {x: 0, y: 0}
+  - Freq: -24
+    Magn: 0.0012857408
+    StartAngle: 0.00081171235
+    angle: 0
+    Top: {x: 0.0012857403, y: 0.0000010436515}
+    Center: {x: 0, y: 0}
+  - Freq: 24
+    Magn: 0.0011435623
+    StartAngle: 0.038065612
+    angle: 0
+    Top: {x: 0.0011427338, y: 0.00004351989}
+    Center: {x: 0, y: 0}
+  - Freq: -25
+    Magn: 0.90120065
+    StartAngle: 0.000010437418
+    angle: 0
+    Top: {x: 0.90120065, y: 0.000009406208}
+    Center: {x: 0, y: 0}
+  - Freq: 25
+    Magn: 0.99415535
+    StartAngle: 0
+    angle: 0
+    Top: {x: 0.99415535, y: 0}
+    Center: {x: 0, y: 0}
+  - Freq: -26
+    Magn: 0.0013623158
+    StartAngle: 0.0143898055
+    angle: 0
+    Top: {x: 0.0013621747, y: 0.000019602783}
+    Center: {x: 0, y: 0}
+  - Freq: 26
+    Magn: 0.0023037447
+    StartAngle: 0.00070835894
+    angle: 0
+    Top: {x: 0.0023037442, y: 0.000001631878}
+    Center: {x: 0, y: 0}
+  - Freq: -27
+    Magn: 0.7522263
+    StartAngle: 0.000027614813
+    angle: 0
+    Top: {x: 0.7522263, y: 0.000020772588}
+    Center: {x: 0, y: 0}
+  - Freq: 27
+    Magn: 0.8334214
+    StartAngle: 0.000012052091
+    angle: 0
+    Top: {x: 0.8334214, y: 0.00001004447}
+    Center: {x: 0, y: 0}
+  - Freq: -28
+    Magn: 0.000035492052
+    StartAngle: 0.008877281
+    angle: 0
+    Top: {x: 0.000035490655, y: 0.0000003150688}
+    Center: {x: 0, y: 0}
+  - Freq: 28
+    Magn: 0.0008596078
+    StartAngle: 0.025606997
+    angle: 0
+    Top: {x: 0.00085932604, y: 0.00002200957}
+    Center: {x: 0, y: 0}
+  - Freq: -29
+    Magn: 0.7767042
+    StartAngle: 0.05482511
+    angle: 0
+    Top: {x: 0.7755372, y: 0.04256156}
+    Center: {x: 0, y: 0}
+  - Freq: 29
+    Magn: 0.84612584
+    StartAngle: 0.054814093
+    angle: 0
+    Top: {x: 0.844855, y: 0.0463564}
+    Center: {x: 0, y: 0}
+  - Freq: -30
+    Magn: 0.0016470491
+    StartAngle: 0.044124123
+    angle: 0
+    Top: {x: 0.001645446, y: 0.00007265102}
+    Center: {x: 0, y: 0}
+  - Freq: 30
+    Magn: 0.00090587966
+    StartAngle: 0.051588356
+    angle: 0
+    Top: {x: 0.0009046745, y: 0.000046712117}
+    Center: {x: 0, y: 0}
+  - Freq: -31
+    Magn: 0.6635555
+    StartAngle: 0.054822616
+    angle: 0
+    Top: {x: 0.66255856, y: 0.036359627}
+    Center: {x: 0, y: 0}
+  - Freq: 31
+    Magn: 0.7255862
+    StartAngle: 0.05482511
+    angle: 0
+    Top: {x: 0.72449595, y: 0.039760415}
+    Center: {x: 0, y: 0}
+  - Freq: -32
+    Magn: 0.00071208365
+    StartAngle: 0.0017322424
+    angle: 0
+    Top: {x: 0.0007120826, y: 0.0000012335009}
+    Center: {x: 0, y: 0}
+  - Freq: 32
+    Magn: 0.0010747206
+    StartAngle: 0.040107165
+    angle: 0
+    Top: {x: 0.0010738564, y: 0.000043092445}
+    Center: {x: 0, y: 0}
+  - Freq: -33
+    Magn: 0.6825753
+    StartAngle: 0.000010437418
+    angle: 0
+    Top: {x: 0.6825753, y: 0.0000071243235}
+    Center: {x: 0, y: 0}
+  - Freq: 33
+    Magn: 0.73666555
+    StartAngle: 0
+    angle: 0
+    Top: {x: 0.73666555, y: 0}
+    Center: {x: 0, y: 0}
+  - Freq: -34
+    Magn: 0.0009802755
+    StartAngle: 0.020796595
+    angle: 0
+    Top: {x: 0.0009800635, y: 0.000020384921}
+    Center: {x: 0, y: 0}
+  - Freq: 34
+    Magn: 0.0015173643
+    StartAngle: 0.002426184
+    angle: 0
+    Top: {x: 0.0015173599, y: 0.0000036814015}
+    Center: {x: 0, y: 0}
+  - Freq: -35
+    Magn: 0.5932671
+    StartAngle: 0.000028264662
+    angle: 0
+    Top: {x: 0.5932671, y: 0.000016768494}
+    Center: {x: 0, y: 0}
+  - Freq: 35
+    Magn: 0.6424897
+    StartAngle: 0.000013474648
+    angle: 0
+    Top: {x: 0.6424897, y: 0.000008657322}
+    Center: {x: 0, y: 0}
+  - Freq: -36
+    Magn: 0.00027774498
+    StartAngle: 0.048160367
+    angle: 0
+    Top: {x: 0.00027742295, y: 0.00001337113}
+    Center: {x: 0, y: 0}
+  - Freq: 36
+    Magn: 0.0007965351
+    StartAngle: 0.03247472
+    angle: 0
+    Top: {x: 0.00079611514, y: 0.000025862708}
+    Center: {x: 0, y: 0}
+  - Freq: -37
+    Magn: 0.60917073
+    StartAngle: 0.054822616
+    angle: 0
+    Top: {x: 0.6082555, y: 0.033379607}
+    Center: {x: 0, y: 0}
+  - Freq: 37
+    Magn: 0.6524729
+    StartAngle: 0.054814093
+    angle: 0
+    Top: {x: 0.65149295, y: 0.035746805}
+    Center: {x: 0, y: 0}
+  - Freq: -38
+    Magn: 0.001545907
+    StartAngle: 0.04440729
+    angle: 0
+    Top: {x: 0.001544383, y: 0.000068626985}
+    Center: {x: 0, y: 0}
+  - Freq: 38
+    Magn: 0.0010438927
+    StartAngle: 0.05069465
+    angle: 0
+    Top: {x: 0.0010425516, y: 0.00005289711}
+    Center: {x: 0, y: 0}
+  - Freq: -39
+    Magn: 0.5368581
+    StartAngle: 0.054822616
+    angle: 0
+    Top: {x: 0.5360515, y: 0.029417222}
+    Center: {x: 0, y: 0}
+  - Freq: 39
+    Magn: 0.5768871
+    StartAngle: 0.054822616
+    angle: 0
+    Top: {x: 0.57602036, y: 0.03161062}
+    Center: {x: 0, y: 0}
+  - Freq: -40
+    Magn: 0.00042147018
+    StartAngle: 0.0058626872
+    angle: 0
+    Top: {x: 0.00042146293, y: 0.0000024709336}
+    Center: {x: 0, y: 0}
+  - Freq: 40
+    Magn: 0.0010723469
+    StartAngle: 0.041662853
+    angle: 0
+    Top: {x: 0.0010714164, y: 0.00004466411}
+    Center: {x: 0, y: 0}
+  - Freq: -41
+    Magn: 0.5493614
+    StartAngle: 0.000012052091
+    angle: 0
+    Top: {x: 0.5493614, y: 0.0000066209536}
+    Center: {x: 0, y: 0}
+  - Freq: 41
+    Magn: 0.5849589
+    StartAngle: 0
+    angle: 0
+    Top: {x: 0.5849589, y: 0}
+    Center: {x: 0, y: 0}
+  - Freq: -42
+    Magn: 0.00086044235
+    StartAngle: 0.023961239
+    angle: 0
+    Top: {x: 0.0008601954, y: 0.00002061529}
+    Center: {x: 0, y: 0}
+  - Freq: 42
+    Magn: 0.0011407672
+    StartAngle: 0.0043572932
+    angle: 0
+    Top: {x: 0.0011407564, y: 0.0000049706414}
+    Center: {x: 0, y: 0}
+  - Freq: -43
+    Magn: 0.4894633
+    StartAngle: 0.000028264662
+    angle: 0
+    Top: {x: 0.4894633, y: 0.000013834515}
+    Center: {x: 0, y: 0}
+  - Freq: 43
+    Magn: 0.5227588
+    StartAngle: 0.000012052091
+    angle: 0
+    Top: {x: 0.5227588, y: 0.0000063003363}
+    Center: {x: 0, y: 0}
+  - Freq: -44
+    Magn: 0.00028119105
+    StartAngle: 0.043539822
+    angle: 0
+    Top: {x: 0.00028092458, y: 0.000012239141}
+    Center: {x: 0, y: 0}
+  - Freq: 44
+    Magn: 0.00075154786
+    StartAngle: 0.033466704
+    angle: 0
+    Top: {x: 0.000751127, y: 0.000025147136}
+    Center: {x: 0, y: 0}
+  - Freq: -45
+    Magn: 0.5009253
+    StartAngle: 0.054822616
+    angle: 0
+    Top: {x: 0.50017273, y: 0.02744828}
+    Center: {x: 0, y: 0}
+  - Freq: 45
+    Magn: 0.5308177
+    StartAngle: 0.054814093
+    angle: 0
+    Top: {x: 0.5300204, y: 0.029081723}
+    Center: {x: 0, y: 0}
+  - Freq: -46
+    Magn: 0.0012580046
+    StartAngle: 0.042498913
+    angle: 0
+    Top: {x: 0.0012568687, y: 0.000053447733}
+    Center: {x: 0, y: 0}
+  - Freq: 46
+    Magn: 0.0008934725
+    StartAngle: 0.048892938
+    angle: 0
+    Top: {x: 0.0008924048, y: 0.000043667096}
+    Center: {x: 0, y: 0}
+  - Freq: -47
+    Magn: 0.45026574
+    StartAngle: 0.054820698
+    angle: 0
+    Top: {x: 0.4495893, y: 0.02467152}
+    Center: {x: 0, y: 0}
+  - Freq: 47
+    Magn: 0.47853872
+    StartAngle: 0.05482511
+    angle: 0
+    Top: {x: 0.4778197, y: 0.026222795}
+    Center: {x: 0, y: 0}
+  - Freq: -48
+    Magn: 0.0005040786
+    StartAngle: 0.0066619427
+    angle: 0
+    Top: {x: 0.0005040674, y: 0.0000033581177}
+    Center: {x: 0, y: 0}
+  - Freq: 48
+    Magn: 0.0008775807
+    StartAngle: 0.039272755
+    angle: 0
+    Top: {x: 0.000876904, y: 0.000034456152}
+    Center: {x: 0, y: 0}
+  - Freq: -49
+    Magn: 0.45991153
+    StartAngle: 0.000012052091
+    angle: 0
+    Top: {x: 0.45991153, y: 0.0000055428955}
+    Center: {x: 0, y: 0}
+  - Freq: 49
+    Magn: 0.48534316
+    StartAngle: 0
+    angle: 0
+    Top: {x: 0.48534316, y: 0}
+    Center: {x: 0, y: 0}
+  - Freq: -50
+    Magn: 0.0008493467
+    StartAngle: 0.021519652
+    angle: 0
+    Top: {x: 0.00084915, y: 0.000018276234}
+    Center: {x: 0, y: 0}
+  - Freq: 50
+    Magn: 0.0011373588
+    StartAngle: 0.005051971
+    angle: 0
+    Top: {x: 0.0011373443, y: 0.000005745879}
+    Center: {x: 0, y: 0}
+  - Freq: -51
+    Magn: 0.41655564
+    StartAngle: 0.000029521478
+    angle: 0
+    Top: {x: 0.41655564, y: 0.000012297338}
+    Center: {x: 0, y: 0}
+  - Freq: 51
+    Magn: 0.4408257
+    StartAngle: 0.000013474648
+    angle: 0
+    Top: {x: 0.4408257, y: 0.0000059399713}
+    Center: {x: 0, y: 0}
+  - Freq: -52
+    Magn: 0.00020826478
+    StartAngle: 0.02950103
+    angle: 0
+    Top: {x: 0.00020817417, y: 0.0000061431347}
+    Center: {x: 0, y: 0}
+  - Freq: 52
+    Magn: 0.00067039405
+    StartAngle: 0.028625937
+    angle: 0
+    Top: {x: 0.00067011936, y: 0.000019188037}
+    Center: {x: 0, y: 0}
+  - Freq: -53
+    Magn: 0.4252363
+    StartAngle: 0.054831136
+    angle: 0
+    Top: {x: 0.42459723, y: 0.023304509}
+    Center: {x: 0, y: 0}
+  - Freq: 53
+    Magn: 0.4472698
+    StartAngle: 0.05481519
+    angle: 0
+    Top: {x: 0.446598, y: 0.024504904}
+    Center: {x: 0, y: 0}
+  - Freq: -54
+    Magn: 0.0010123526
+    StartAngle: 0.0393635
+    angle: 0
+    Top: {x: 0.0010115685, y: 0.00003983945}
+    Center: {x: 0, y: 0}
+  - Freq: 54
+    Magn: 0.00067477435
+    StartAngle: 0.045386028
+    angle: 0
+    Top: {x: 0.00067407946, y: 0.000030614814}
+    Center: {x: 0, y: 0}
+  - Freq: -55
+    Magn: 0.38749823
+    StartAngle: 0.054820698
+    angle: 0
+    Top: {x: 0.3869161, y: 0.021232285}
+    Center: {x: 0, y: 0}
+  - Freq: 55
+    Magn: 0.40869072
+    StartAngle: 0.05482511
+    angle: 0
+    Top: {x: 0.40807664, y: 0.022395289}
+    Center: {x: 0, y: 0}
+  - Freq: -56
+    Magn: 0.0005731796
+    StartAngle: 0.00699195
+    angle: 0
+    Top: {x: 0.0005731656, y: 0.0000040076106}
+    Center: {x: 0, y: 0}
+  - Freq: 56
+    Magn: 0.0007266145
+    StartAngle: 0.035456464
+    angle: 0
+    Top: {x: 0.0007261578, y: 0.000025757783}
+    Center: {x: 0, y: 0}
+  - Freq: -57
+    Magn: 0.39553732
+    StartAngle: 0.000012052091
+    angle: 0
+    Top: {x: 0.39553732, y: 0.0000047670515}
+    Center: {x: 0, y: 0}
+  - Freq: 57
+    Magn: 0.41481584
+    StartAngle: 0.0000060260454
+    angle: 0
+    Top: {x: 0.41481584, y: 0.0000024996991}
+    Center: {x: 0, y: 0}
+  - Freq: -58
+    Magn: 0.0008172757
+    StartAngle: 0.021054653
+    angle: 0
+    Top: {x: 0.0008170946, y: 0.000017206186}
+    Center: {x: 0, y: 0}
+  - Freq: 58
+    Magn: 0.0011204702
+    StartAngle: 0.005705672
+    angle: 0
+    Top: {x: 0.001120452, y: 0.000006393001}
+    Center: {x: 0, y: 0}
+  - Freq: -59
+    Magn: 0.36236295
+    StartAngle: 0.00003072693
+    angle: 0
+    Top: {x: 0.36236295, y: 0.000011134301}
+    Center: {x: 0, y: 0}
+  - Freq: 59
+    Magn: 0.38106033
+    StartAngle: 0.000012052091
+    angle: 0
+    Top: {x: 0.38106033, y: 0.0000045925735}
+    Center: {x: 0, y: 0}
+  - Freq: -60
+    Magn: 0.00023788922
+    StartAngle: 0.027695319
+    angle: 0
+    Top: {x: 0.000237798, y: 0.0000065875756}
+    Center: {x: 0, y: 0}
+  - Freq: 60
+    Magn: 0.0006336892
+    StartAngle: 0.027138228
+    angle: 0
+    Top: {x: 0.0006334559, y: 0.000017195092}
+    Center: {x: 0, y: 0}
+  - Freq: -61
+    Magn: 0.369545
+    StartAngle: 0.054831136
+    angle: 0
+    Top: {x: 0.36898965, y: 0.020252421}
+    Center: {x: 0, y: 0}
+  - Freq: 61
+    Magn: 0.38659507
+    StartAngle: 0.054816373
+    angle: 0
+    Top: {x: 0.3860144, y: 0.021181129}
+    Center: {x: 0, y: 0}
+  - Freq: -62
+    Magn: 0.0009412313
+    StartAngle: 0.038594738
+    angle: 0
+    Top: {x: 0.0009405304, y: 0.000036317557}
+    Center: {x: 0, y: 0}
+  - Freq: 62
+    Magn: 0.00064310204
+    StartAngle: 0.043947652
+    angle: 0
+    Top: {x: 0.0006424811, y: 0.000028253728}
+    Center: {x: 0, y: 0}
+  - Freq: -63
+    Magn: 0.3401133
+    StartAngle: 0.05481908
+    angle: 0
+    Top: {x: 0.33960238, y: 0.018635362}
+    Center: {x: 0, y: 0}
+  - Freq: 63
+    Magn: 0.35674673
+    StartAngle: 0.05482511
+    angle: 0
+    Top: {x: 0.3562107, y: 0.019548882}
+    Center: {x: 0, y: 0}
+  - Freq: -64
+    Magn: 0.00047440594
+    StartAngle: 0.009676714
+    angle: 0
+    Top: {x: 0.00047438373, y: 0.000004590619}
+    Center: {x: 0, y: 0}
+  - Freq: 64
+    Magn: 0.000698864
+    StartAngle: 0.035756305
+    angle: 0
+    Top: {x: 0.0006984173, y: 0.00002498347}
+    Center: {x: 0, y: 0}
+  - Freq: -65
+    Magn: 0.3468464
+    StartAngle: 0.000012052091
+    angle: 0
+    Top: {x: 0.3468464, y: 0.0000041802246}
+    Center: {x: 0, y: 0}
+  - Freq: 65
+    Magn: 0.36211357
+    StartAngle: 0.0000060260454
+    angle: 0
+    Top: {x: 0.36211357, y: 0.000002182113}
+    Center: {x: 0, y: 0}
+  - Freq: -66
+    Magn: 0.0007608057
+    StartAngle: 0.023839992
+    angle: 0
+    Top: {x: 0.0007605895, y: 0.000018135883}
+    Center: {x: 0, y: 0}
+  - Freq: 66
+    Magn: 0.00096784154
+    StartAngle: 0.0071771713
+    angle: 0
+    Top: {x: 0.0009678166, y: 0.000006946305}
+    Center: {x: 0, y: 0}
+  - Freq: -67
+    Magn: 0.3204479
+    StartAngle: 0.00003188684
+    angle: 0
+    Top: {x: 0.3204479, y: 0.000010218071}
+    Center: {x: 0, y: 0}
+  - Freq: 67
+    Magn: 0.33541438
+    StartAngle: 0.000012052091
+    angle: 0
+    Top: {x: 0.33541438, y: 0.0000040424447}
+    Center: {x: 0, y: 0}
+  - Freq: -68
+    Magn: 0.0002776015
+    StartAngle: 0.03295812
+    angle: 0
+    Top: {x: 0.00027745074, y: 0.000009147567}
+    Center: {x: 0, y: 0}
+  - Freq: 68
+    Magn: 0.0006164485
+    StartAngle: 0.029660296
+    angle: 0
+    Top: {x: 0.0006161774, y: 0.000018281364}
+    Center: {x: 0, y: 0}
+  - Freq: -69
+    Magn: 0.32683656
+    StartAngle: 0.054831136
+    angle: 0
+    Top: {x: 0.32634535, y: 0.017911842}
+    Center: {x: 0, y: 0}
+  - Freq: 69
+    Magn: 0.34056377
+    StartAngle: 0.05481908
+    angle: 0
+    Top: {x: 0.3400522, y: 0.018660044}
+    Center: {x: 0, y: 0}
+  - Freq: -70
+    Magn: 0.0009158997
+    StartAngle: 0.03846839
+    angle: 0
+    Top: {x: 0.0009152221, y: 0.000035224497}
+    Center: {x: 0, y: 0}
+  - Freq: 70
+    Magn: 0.0006893537
+    StartAngle: 0.043990202
+    angle: 0
+    Top: {x: 0.0006886868, y: 0.000030315028}
+    Center: {x: 0, y: 0}
+  - Freq: -71
+    Magn: 0.30300868
+    StartAngle: 0.054817658
+    angle: 0
+    Top: {x: 0.30255353, y: 0.016601907}
+    Center: {x: 0, y: 0}
+  - Freq: 71
+    Magn: 0.31655857
+    StartAngle: 0.054831136
+    angle: 0
+    Top: {x: 0.31608284, y: 0.01734857}
+    Center: {x: 0, y: 0}
+  - Freq: -72
+    Magn: 0.00042441773
+    StartAngle: 0.012088623
+    angle: 0
+    Top: {x: 0.0004243867, y: 0.000005130501}
+    Center: {x: 0, y: 0}
+  - Freq: 72
+    Magn: 0.0006884984
+    StartAngle: 0.036355395
+    angle: 0
+    Top: {x: 0.0006880434, y: 0.000025025116}
+    Center: {x: 0, y: 0}
+  - Freq: -73
+    Magn: 0.30888286
+    StartAngle: 0.000013474648
+    angle: 0
+    Top: {x: 0.30888286, y: 0.000004162088}
+    Center: {x: 0, y: 0}
+  - Freq: 73
+    Magn: 0.32134047
+    StartAngle: 0.000008522115
+    angle: 0
+    Top: {x: 0.32134047, y: 0.0000027385006}
+    Center: {x: 0, y: 0}
+  - Freq: -74
+    Magn: 0.0007358461
+    StartAngle: 0.02443235
+    angle: 0
+    Top: {x: 0.0007356265, y: 0.000017976661}
+    Center: {x: 0, y: 0}
+  - Freq: 74
+    Magn: 0.0008854187
+    StartAngle: 0.008388125
+    angle: 0
+    Top: {x: 0.00088538753, y: 0.0000074269155}
+    Center: {x: 0, y: 0}
+  - Freq: -75
+    Magn: 0.28723514
+    StartAngle: 0.000033006017
+    angle: 0
+    Top: {x: 0.28723514, y: 0.000009480488}
+    Center: {x: 0, y: 0}
+  - Freq: 75
+    Magn: 0.2995773
+    StartAngle: 0.000013474648
+    angle: 0
+    Top: {x: 0.2995773, y: 0.0000040366986}
+    Center: {x: 0, y: 0}
+  - Freq: -76
+    Magn: 0.00028044812
+    StartAngle: 0.02986905
+    angle: 0
+    Top: {x: 0.00028032303, y: 0.000008375473}
+    Center: {x: 0, y: 0}
+  - Freq: 76
+    Magn: 0.0005962777
+    StartAngle: 0.029134497
+    angle: 0
+    Top: {x: 0.0005960247, y: 0.000017369794}
+    Center: {x: 0, y: 0}
+  - Freq: -77
+    Magn: 0.29287753
+    StartAngle: 0.054831136
+    angle: 0
+    Top: {x: 0.29243737, y: 0.016050762}
+    Center: {x: 0, y: 0}
+  - Freq: 77
+    Magn: 0.30428034
+    StartAngle: 0.054817658
+    angle: 0
+    Top: {x: 0.3038233, y: 0.016671583}
+    Center: {x: 0, y: 0}
+  - Freq: -78
+    Magn: 0.00082012254
+    StartAngle: 0.036180086
+    angle: 0
+    Top: {x: 0.00081958587, y: 0.00002966563}
+    Center: {x: 0, y: 0}
+  - Freq: 78
+    Magn: 0.0006192093
+    StartAngle: 0.04206685
+    angle: 0
+    Top: {x: 0.0006186615, y: 0.000026040503}
+    Center: {x: 0, y: 0}
+  - Freq: -79
+    Magn: 0.273018
+    StartAngle: 0.054817658
+    angle: 0
+    Top: {x: 0.2726079, y: 0.014958712}
+    Center: {x: 0, y: 0}
+  - Freq: 79
+    Magn: 0.28437322
+    StartAngle: 0.054831136
+    angle: 0
+    Top: {x: 0.28394586, y: 0.015584695}
+    Center: {x: 0, y: 0}
+  - Freq: -80
+    Magn: 0.0004913948
+    StartAngle: 0.010958056
+    angle: 0
+    Top: {x: 0.00049136527, y: 0.000005384624}
+    Center: {x: 0, y: 0}
+  - Freq: 80
+    Magn: 0.00062247954
+    StartAngle: 0.03347111
+    angle: 0
+    Top: {x: 0.0006221309, y: 0.00002083119}
+    Center: {x: 0, y: 0}
+  - Freq: -81
+    Magn: 0.2785321
+    StartAngle: 0.000013474648
+    angle: 0
+    Top: {x: 0.2785321, y: 0.0000037531217}
+    Center: {x: 0, y: 0}
+  - Freq: 81
+    Magn: 0.28898516
+    StartAngle: 0
+    angle: 0
+    Top: {x: 0.28898516, y: 0}
+    Center: {x: 0, y: 0}
+  - Freq: -82
+    Magn: 0.00073679036
+    StartAngle: 0.022440821
+    angle: 0
+    Top: {x: 0.00073660485, y: 0.000016532793}
+    Center: {x: 0, y: 0}
+  - Freq: 82
+    Magn: 0.0009284371
+    StartAngle: 0.008165216
+    angle: 0
+    Top: {x: 0.0009284062, y: 0.0000075808057}
+    Center: {x: 0, y: 0}
+  - Freq: -83
+    Magn: 0.2603036
+    StartAngle: 0.00003355161
+    angle: 0
+    Top: {x: 0.2603036, y: 0.000008733604}
+    Center: {x: 0, y: 0}
+  - Freq: 83
+    Magn: 0.27075496
+    StartAngle: 0.000014760738
+    angle: 0
+    Top: {x: 0.27075496, y: 0.000003996543}
+    Center: {x: 0, y: 0}
+  - Freq: -84
+    Magn: 0.0003023952
+    StartAngle: 0.023990175
+    angle: 0
+    Top: {x: 0.00030230818, y: 0.0000072538182}
+    Center: {x: 0, y: 0}
+  - Freq: 84
+    Magn: 0.00057994947
+    StartAngle: 0.025816698
+    angle: 0
+    Top: {x: 0.0005797562, y: 0.000014970717}
+    Center: {x: 0, y: 0}
+  - Freq: -85
+    Magn: 0.2652696
+    StartAngle: 0.054831136
+    angle: 0
+    Top: {x: 0.26487094, y: 0.014537747}
+    Center: {x: 0, y: 0}
+  - Freq: 85
+    Magn: 0.27494836
+    StartAngle: 0.05481908
+    angle: 0
+    Top: {x: 0.27453533, y: 0.015064868}
+    Center: {x: 0, y: 0}
+  - Freq: -86
+    Magn: 0.0007489994
+    StartAngle: 0.033672713
+    angle: 0
+    Top: {x: 0.0007485748, y: 0.000025216077}
+    Center: {x: 0, y: 0}
+  - Freq: 86
+    Magn: 0.000545876
+    StartAngle: 0.039140183
+    angle: 0
+    Top: {x: 0.00054545794, y: 0.000021360232}
+    Center: {x: 0, y: 0}
+  - Freq: -87
+    Magn: 0.24837795
+    StartAngle: 0.054816373
+    angle: 0
+    Top: {x: 0.24800488, y: 0.013608361}
+    Center: {x: 0, y: 0}
+  - Freq: 87
+    Magn: 0.25808436
+    StartAngle: 0.054831136
+    angle: 0
+    Top: {x: 0.25769648, y: 0.014143969}
+    Center: {x: 0, y: 0}
+  - Freq: -88
+    Magn: 0.00051299704
+    StartAngle: 0.010900666
+    angle: 0
+    Top: {x: 0.00051296654, y: 0.0000055918986}
+    Center: {x: 0, y: 0}
+  - Freq: 88
+    Magn: 0.0005852576
+    StartAngle: 0.03091376
+    angle: 0
+    Top: {x: 0.00058497797, y: 0.000018089633}
+    Center: {x: 0, y: 0}
+  - Freq: -89
+    Magn: 0.25357723
+    StartAngle: 0.000014760738
+    angle: 0
+    Top: {x: 0.25357723, y: 0.000003742987}
+    Center: {x: 0, y: 0}
+  - Freq: 89
+    Magn: 0.262571
+    StartAngle: 0.000008522115
+    angle: 0
+    Top: {x: 0.262571, y: 0.0000022376605}
+    Center: {x: 0, y: 0}
+  - Freq: -90
+    Magn: 0.0007206768
+    StartAngle: 0.022954509
+    angle: 0
+    Top: {x: 0.0007204869, y: 0.00001654133}
+    Center: {x: 0, y: 0}
+  - Freq: 90
+    Magn: 0.000917478
+    StartAngle: 0.008669254
+    angle: 0
+    Top: {x: 0.00091744354, y: 0.00000795375}
+    Center: {x: 0, y: 0}
+  - Freq: -91
+    Magn: 0.23785843
+    StartAngle: 0.000034088465
+    angle: 0
+    Top: {x: 0.23785843, y: 0.000008108229}
+    Center: {x: 0, y: 0}
+  - Freq: 91
+    Magn: 0.24691987
+    StartAngle: 0.000014760738
+    angle: 0
+    Top: {x: 0.24691987, y: 0.0000036447195}
+    Center: {x: 0, y: 0}
+  - Freq: -92
+    Magn: 0.00030727312
+    StartAngle: 0.025719445
+    angle: 0
+    Top: {x: 0.0003071715, y: 0.000007902023}
+    Center: {x: 0, y: 0}
+  - Freq: 92
+    Magn: 0.0005629302
+    StartAngle: 0.026065217
+    angle: 0
+    Top: {x: 0.000562739, y: 0.000014671236}
+    Center: {x: 0, y: 0}
+  - Freq: -93
+    Magn: 0.2425425
+    StartAngle: 0.054831136
+    angle: 0
+    Top: {x: 0.242178, y: 0.013292219}
+    Center: {x: 0, y: 0}
+  - Freq: 93
+    Magn: 0.250913
+    StartAngle: 0.05481908
+    angle: 0
+    Top: {x: 0.25053605, y: 0.013747931}
+    Center: {x: 0, y: 0}
+  - Freq: -94
+    Magn: 0.0007528428
+    StartAngle: 0.034233604
+    angle: 0
+    Top: {x: 0.0007524017, y: 0.000025767487}
+    Center: {x: 0, y: 0}
+  - Freq: 94
+    Magn: 0.00057662994
+    StartAngle: 0.03955448
+    angle: 0
+    Top: {x: 0.0005761789, y: 0.000022802353}
+    Center: {x: 0, y: 0}
+  - Freq: -95
+    Magn: 0.22791415
+    StartAngle: 0.054814093
+    angle: 0
+    Top: {x: 0.22757185, y: 0.0124866525}
+    Center: {x: 0, y: 0}
+  - Freq: 95
+    Magn: 0.23636541
+    StartAngle: 0.054831136
+    angle: 0
+    Top: {x: 0.23601018, y: 0.012953691}
+    Center: {x: 0, y: 0}
+  - Freq: -96
+    Magn: 0.00042621157
+    StartAngle: 0.01432367
+    angle: 0
+    Top: {x: 0.00042616786, y: 0.0000061047053}
+    Center: {x: 0, y: 0}
+  - Freq: 96
+    Magn: 0.00058559753
+    StartAngle: 0.032909457
+    angle: 0
+    Top: {x: 0.0005852805, y: 0.000019268216}
+    Center: {x: 0, y: 0}
+  - Freq: -97
+    Magn: 0.2326084
+    StartAngle: 0.000014760738
+    angle: 0
+    Top: {x: 0.2326084, y: 0.0000034334714}
+    Center: {x: 0, y: 0}
+  - Freq: 97
+    Magn: 0.24048933
+    StartAngle: 0.000008522115
+    angle: 0
+    Top: {x: 0.24048933, y: 0.0000020494779}
+    Center: {x: 0, y: 0}
+  - Freq: -98
+    Magn: 0.0006952466
+    StartAngle: 0.02625818
+    angle: 0
+    Top: {x: 0.0006950069, y: 0.000018253813}
+    Center: {x: 0, y: 0}
+  - Freq: 98
+    Magn: 0.00079960795
+    StartAngle: 0.0104594
+    angle: 0
+    Top: {x: 0.0007995642, y: 0.000008363267}
+    Center: {x: 0, y: 0}
+  - Freq: -99
+    Magn: 0.21884787
+    StartAngle: 0.00003513759
+    angle: 0
+    Top: {x: 0.21884787, y: 0.000007689787}
+    Center: {x: 0, y: 0}
+  - Freq: 99
+    Magn: 0.22682074
+    StartAngle: 0.000015943418
+    angle: 0
+    Top: {x: 0.22682074, y: 0.0000036162978}
+    Center: {x: 0, y: 0}
+  - Freq: 0
+    Magn: 0
+    StartAngle: 0
+    angle: 0
+    Top: {x: 0, y: 0}
+    Center: {x: 0, y: 0}
+  - Freq: 0
+    Magn: 0
+    StartAngle: 0
+    angle: 0
+    Top: {x: 0, y: 0}
+    Center: {x: 0, y: 0}
+  CycleRenderer: {fileID: 1616612531}
+  drawscr: {fileID: 1853382856}
+  DrawingScale: 0.0005
+  dt_Integration: 0.00001
+  scalar: 0.05
+  time: 0
+--- !u!4 &1616612530
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616612528}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.5195609, y: 1, z: -8.480443}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!120 &1616612531
+LineRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616612528}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: eeae62f8edec34d4993401698e5f2f83, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Positions:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  m_Parameters:
+    serializedVersion: 3
+    widthMultiplier: 1
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    colorGradient:
+      serializedVersion: 2
+      key0: {r: 0, g: 0, b: 1, a: 1}
+      key1: {r: 0, g: 0, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    numCornerVertices: 0
+    numCapVertices: 0
+    alignment: 0
+    textureMode: 0
+    shadowBias: 0.5
+    generateLightingData: 0
+  m_UseWorldSpace: 1
+  m_Loop: 0
+--- !u!850595691 &1733618134
+LightingSettings:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Settings.lighting
+  serializedVersion: 2
+  m_GIWorkflowMode: 1
+  m_EnableBakedLightmaps: 1
+  m_EnableRealtimeLightmaps: 0
+  m_RealtimeEnvironmentLighting: 1
+  m_BounceScale: 1
+  m_AlbedoBoost: 1
+  m_IndirectOutputScale: 1
+  m_UsingShadowmask: 1
+  m_BakeBackend: 1
+  m_LightmapMaxSize: 1024
+  m_BakeResolution: 40
+  m_Padding: 2
+  m_TextureCompression: 1
+  m_AO: 0
+  m_AOMaxDistance: 1
+  m_CompAOExponent: 1
+  m_CompAOExponentDirect: 0
+  m_ExtractAO: 0
+  m_MixedBakeMode: 2
+  m_LightmapsBakeMode: 1
+  m_FilterMode: 1
+  m_LightmapParameters: {fileID: 0}
+  m_ExportTrainingData: 0
+  m_TrainingDataDestination: TrainingData
+  m_RealtimeResolution: 2
+  m_ForceWhiteAlbedo: 0
+  m_ForceUpdates: 0
+  m_FinalGather: 0
+  m_FinalGatherRayCount: 256
+  m_FinalGatherFiltering: 1
+  m_PVRCulling: 1
+  m_PVRSampling: 1
+  m_PVRDirectSampleCount: 32
+  m_PVRSampleCount: 500
+  m_PVREnvironmentSampleCount: 500
+  m_PVREnvironmentReferencePointCount: 2048
+  m_LightProbeSampleCountMultiplier: 4
+  m_PVRBounces: 2
+  m_PVRRussianRouletteStartBounce: 2
+  m_PVREnvironmentMIS: 0
+  m_PVRFilteringMode: 2
+  m_PVRDenoiserTypeDirect: 0
+  m_PVRDenoiserTypeIndirect: 0
+  m_PVRDenoiserTypeAO: 0
+  m_PVRFilterTypeDirect: 0
+  m_PVRFilterTypeIndirect: 0
+  m_PVRFilterTypeAO: 0
+  m_PVRFilteringGaussRadiusDirect: 1
+  m_PVRFilteringGaussRadiusIndirect: 5
+  m_PVRFilteringGaussRadiusAO: 2
+  m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+  m_PVRFilteringAtrousPositionSigmaIndirect: 2
+  m_PVRFilteringAtrousPositionSigmaAO: 1
+--- !u!1 &1791804602
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791804603}
+  - component: {fileID: 1791804604}
+  - component: {fileID: 1791804605}
+  m_Layer: 0
+  m_Name: DRAWING
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791804603
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791804602}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.93361, y: -22.744726, z: -75.231316}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791804604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791804602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 854cc9393cc1e3842b84045dfb939202, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lr: {fileID: 0}
+  fourierscript: {fileID: 1616612529}
+--- !u!120 &1791804605
+LineRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791804602}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: c54f4afc6bd0a0a46b744599216647d6, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Positions:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 1}
+  m_Parameters:
+    serializedVersion: 3
+    widthMultiplier: 1
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    colorGradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    numCornerVertices: 0
+    numCapVertices: 0
+    alignment: 0
+    textureMode: 0
+    shadowBias: 0.5
+    generateLightingData: 0
+  m_UseWorldSpace: 1
+  m_Loop: 0
+--- !u!1 &1853382855
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1853382857}
+  - component: {fileID: 1853382856}
+  - component: {fileID: 1853382858}
+  m_Layer: 0
+  m_Name: InputDrawing
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1853382856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853382855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a842d889c05a0af44aae8bb4ae25b675, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 963194227}
+  DrawingPositions: []
+  CanDraw: 1
+  Scale: 12
+  lr: {fileID: 1853382858}
+  maxSpaceBetweenPoints: 0
+  cursoroffset: {x: 0, y: 0, z: 0}
+--- !u!4 &1853382857
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853382855}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 629.1287, y: 275.51794, z: -3450.6123}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!120 &1853382858
+LineRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853382855}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: fa1b650456c57874687b5a97c3d32c8b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Positions:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 1}
+  m_Parameters:
+    serializedVersion: 3
+    widthMultiplier: 1
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    colorGradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    numCornerVertices: 0
+    numCapVertices: 0
+    alignment: 0
+    textureMode: 0
+    shadowBias: 0.5
+    generateLightingData: 0
+  m_UseWorldSpace: 1
+  m_Loop: 0
