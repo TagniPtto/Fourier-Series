@@ -1,0 +1,19 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSMain
+
+// Create a RenderTexture with enableRandomWrite flag and set it
+
+//RWTexture2D<float4> Result; // This is the HLSL's version of a compute buffer shaped as a texture
+
+
+int resolution;
+RWStructuredBuffer<float3> positionBuffer;
+
+[numthreads(8, 8, 1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+    // TODO: insert actual code here!
+    positionBuffer[id.x + id.y * resolution + id.z * resolution * resolution] = float3(id.x, id.y, id.x * id.y);
+}
+
+
