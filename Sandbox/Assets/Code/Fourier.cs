@@ -33,12 +33,12 @@ public class Fourier : MonoBehaviour
         CycleRenderer.positionCount = OrderCircles.Length + 1;
         CycleRenderer.startColor = Color.blue;
         CycleRenderer.endColor = Color.blue;
-        CycleRenderer.startWidth = 0.1f;
-        CycleRenderer.endWidth = 0.1f;
+        CycleRenderer.startWidth = 0.01f;
+        CycleRenderer.endWidth = 0.01f;
 
 
         int NumbOfCirc = (int)((OrderCircles.Length - 1) / 2);
-        OrderCircles[0] = new Circle(0, CalcSquareCOefficients(0));
+        OrderCircles[0] = new Circle(0, new ComplexNumber(0,0));
         for (int i = 1; i< NumbOfCirc; i++)
         {
 

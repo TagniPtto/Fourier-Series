@@ -22,8 +22,8 @@ public class Drawing : MonoBehaviour
         count = 0;
         lr.startColor = Color.blue;
         lr.endColor = Color.blue;
-        lr.startWidth = 0.1f;
-        lr.endWidth = 0.1f;
+        lr.startWidth = 0.05f;
+        lr.endWidth = 0.05f;
 
     }
 
